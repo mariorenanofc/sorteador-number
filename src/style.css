@@ -1,0 +1,45 @@
+body {
+    background-color: dodgerblue;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Arial;
+  }
+  
+  .box {
+    min-width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .box input {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .box h1 {
+    font-size: 22px;
+    color: rgb(80, 80, 80);
+    margin: 15px 0;
+  }
+
+  div.box button {
+    padding: 5px;
+    margin: 15px;
+  }
+
+  @media only screen and (max-width: 375px) {
+    .box {
+      width: 100%;
+      padding: 10px;
+    }
+  }
