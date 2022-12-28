@@ -35,11 +35,30 @@ body {
   div.box button {
     padding: 5px;
     margin: 15px;
+    border: none;
+    background-color:dodgerblue;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 5px;
+  }
+
+  div #result {
+    margin: 15px 0 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: dodgerblue;
   }
 
   @media only screen and (max-width: 375px) {
-    .box {
+
+    body {
       width: 100%;
+      font-family: Arial;
+    }
+    .box {
+      min-width: 100%;
       padding: 10px;
     }
   }
